@@ -1,0 +1,722 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    position: relative;
+}
+
+.nav{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(249, 250, 249);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    align-items: center ;
+    font-weight: bolder;
+    top: 0;
+    opacity: 1;
+}
+
+.my{
+    color: rgb(12, 190, 12);
+}
+
+.gambar{
+    margin-top: 4px;
+    justify-content: center;
+    width: 100%;
+}
+
+.content{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 80px;
+    flex-direction: column;
+    
+}
+
+.content2{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+    text-align: center;
+}
+
+.content3{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    height: 140vh;
+    width: 100%;
+    display: none;
+    margin-top:-10vh;
+}
+
+.content4{
+    display: none;
+    height: 280vh;
+    width: 100%;
+}
+
+.tombol{
+    display: flex;
+    float: left;
+    margin: 10px;
+    top:40vh;
+    position: absolute;
+}
+
+.back{
+    background-color:rgb(12, 190, 12) ;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.hH{
+    border: 3px solid rgb(12, 190, 12);
+    background-color: rgb(12, 190, 12);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    margin: 30px;
+    background-size: 10px;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 75px;
+    text-align: center;
+    box-shadow: 10px 5px 5px rgb(99, 102, 99);
+    
+}
+
+.dS{
+    border: 3px solid rgb(12, 190, 12);
+    background-color: rgb(12, 190, 12);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    box-shadow: 10px 5px 5px rgb(99, 102, 99);
+}
+
+.aH{
+    border: 3px solid rgb(12, 190, 12);
+    background-color: rgb(12, 190, 12);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    margin: 30px;
+    background-size: 10px;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    text-align: center;
+    height: 75px;
+    box-shadow: 10px 5px 5px rgb(99, 102, 99);
+    
+}
+
+.footer{
+    background-color: rgb(97, 96, 96);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.cr{
+    color: white;
+    font-weight: bold;
+}
+
+.nama{
+    color: white;
+    font-weight: bold;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+.row2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+}
+.row3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+}
+.row4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+}
+.row5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+}
+
+.roww1{
+    display: flex;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    padding: 5vh;
+    cursor: pointer;
+}
+.roww2{
+    display: flex;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    padding: 5vh;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.roww3{
+    display: flex;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    padding: 5vh;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+.salam{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+/* style of surat */
+
+/* al-fatihah */
+.alfatihah{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-weight: bold;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    height: 15vh;
+    width: 100%;
+}
+.alfatihah1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    height: 30vh;
+    width: 80%;
+}
+
+.b1{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.s1{
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.l1{
+    margin-left: 5vh;
+    font-weight: 100;
+}
+
+.j1{
+  padding:10px;
+  font-weight:bolder;
+}
+
+/* end of al-fatihah */
+
+/* ----- */
+
+.r1{
+    width: 50px;
+}
+.r2{
+    width: 50px;
+}
+.r3{
+    width: 50px;
+}
+.r4{
+    width: 50px;
+}
+.r5{
+    width: 50px;
+}
+.r6{
+    width: 50px;
+}
+.r7{
+    width: 50px;
+}
+.r8{
+    width: 50px;
+}
+.r9{
+    width: 50px;
+}
+.r10{
+    width: 50px;
+}
+.r11{
+    width: 50px;
+}
+.r12{
+    width: 50px;
+}
+.r13{
+    width: 50px;
+}
+.r14{
+    width: 50px;
+}
+.r15{
+    width: 50px;
+}
+.r16{
+    width: 50px;
+}
+.r17{
+    width: 50px;
+}
+.r18{
+    width: 50px;
+}
+.r19{
+    width: 50px;
+}
+.r20{
+    width: 50px;
+}
+.r21{
+    width: 50px;
+}
+.r22{
+    width: 50px;
+}
+.r23{
+    width: 50px;
+}
+.r24{
+    width: 50px;
+}
+.r25{
+    width: 50px;
+}
+.r26{
+    width: 50px;
+}
+.r27{
+    width: 50px;
+}
+.r28{
+    width: 50px;
+}
+.r29{
+    width: 50px;;
+}
+.r30{
+    width: 50px;
+}
+
+
+/* HOVER HERE!!! */
+.salam:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    border-radius: 8px;
+    transition: 1.2s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+
+.r1:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r2:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r3:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r4:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r5:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r6:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r7:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r8:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r9:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r10:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition:0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r11:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r12:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r13:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r14:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r15:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r16:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r17:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r18:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r19:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r20:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r21:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r22:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r23:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r24:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r25:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r26:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r27:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r28:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r29:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+.r30:hover{
+    cursor: pointer;
+    background-color:rgb(29, 226, 29) ;
+    width: 50px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(29, 226, 29);
+    border-style: none;
+    color: white;
+}
+
+
+.hH:hover{
+    transition: 0.5s ease-in-out;
+    color: black;
+    cursor: pointer;
+    background-color: rgb(29, 226, 29);
+    border:3px solid rgb(29, 226, 29) ;
+    
+}
+
+.dS:hover{
+    transition: 0.5s ease-in-out;
+    color: black;
+    cursor: pointer;
+    background-color: rgb(29, 226, 29);
+    border:3px solid rgb(29, 226, 29) ;
+}
+
+.aH:hover{
+    transition: 0.5s ease-in-out;
+    color: black;
+    cursor: pointer;
+    background-color: rgb(29, 226, 29);
+    border:3px solid rgb(29, 226, 29) ;
+}
+
+.back:hover{
+    background-color:rgb(12, 190, 12) ;
+    width: 50px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+/* AUDIO HERE */
+
+audio{
+    display: none;
+}
